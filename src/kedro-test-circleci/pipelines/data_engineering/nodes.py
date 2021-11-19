@@ -1,5 +1,3 @@
-import findspark
-findspark.init()
 
 from pyspark.sql.functions import lpad, collect_set, collect_list, year, month, dayofmonth, concat_ws, when, concat, count, max, lit, countDistinct, size, split, lower, col, substring, length, udf, format_string, date_format, to_utc_timestamp
 import pyspark.sql.functions as f
