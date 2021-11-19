@@ -1,3 +1,5 @@
+import pandas as pd
+'''
 import findspark
 findspark.init()
 
@@ -14,3 +16,4 @@ spark = SparkSession.builder.config("spark.driver.memory", "6g").config("spark.h
 print("Lectura s3")
 df = spark.read.parquet("s3a://sumz-kobaqa-bucket/BCT_KOBA/raw/trx_header")
 df.printSchema()
+'''
